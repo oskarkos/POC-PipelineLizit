@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  shell: shell-tag
+  variables: VITE_SOME_KEY:"123"
+    VITE_DB_NAME:"estoesunabasededatos"
+
 phases:
   install:
     runtime-versions:
