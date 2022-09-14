@@ -16,6 +16,7 @@ function App() {
         </a>
       </div>
       <h1>Prueba implementacion {import.meta.env.VITE_SOME_KEY}</h1>
+      <h2>{import.meta.env.VITE_DB_NAME}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
