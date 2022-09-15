@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    VITE_SOME_KEY: "123"
+    VITE_SOME_KEY: "1289hk"
     VITE_DB_NAME: "estoesunabasededatos"
 
 phases:
